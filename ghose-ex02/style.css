@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Universal Selector Reset cssreset.com */
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+:root {
+  --body-color: #bababa;
+}
+body {
+  background-color: var(--body-color);
+  text-align: left;
+  font: 11px/1.1em "Lucida Grande", Lucida, Verdana, sans-serif;
+  /* Necessary for gradient to work properly */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+img{
+  margin-right: 10px;
+}
+
+p{
+  margin-bottom:10px;
+}
+
+main p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #292827;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.3em;
+  line-height: .5em;
+}
+h3 {
+  font-size: 1.1em;
+}
+header {
+  width: 100%;
+  background-color: #000;
+}
+nav {
+  padding-top: 3px;
+  height: 40px;
+  float: right;
+}
+nav li {
+  font-family: "Courier New", Courier, monospace;
+  font-size:13px;
+  white-space: nowrap;
+  display: inline;
+  list-style-type: none;
+  padding-right: 1.5em;
+}
+nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #d5d7ff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+#banner {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  background-image: url(images/bannerKitten.png);
+  background-size: auto;
+}
+main {
+  width: 60%;
+  margin-right: 5%;
+  float: left;
+  margin-top: 50px;
+}
+aside {
+  width: 35%;
+  float: right;
+  margin-top: 50px;
+}
+
+#kitten02{
+  float: left;
+}
+#kitten02:hover{
+  filter: saturation(100%);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 580px) {
+
+  :root { --body-color: #27e627;
+  }
+
+  #wrapper { width: 90%;
+  }
+
+  header nav, main, aside {
+    float: left;
+    clear: left;
+    margin: 0 0 10px;
+    width: 100%;
+  }
+
+  header nav {
+    height: 140px;
+  }
+
+  header nav li {
+    margin: 0;
+    background: #000;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  header nav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #banner {
+    display: none;
+  }
+
+}

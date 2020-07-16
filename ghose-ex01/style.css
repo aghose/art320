@@ -1,0 +1,165 @@
+/* CSS Document */
+/* Universal Selector Reset cssreset.com */
+* { margin: 10; padding: 10; }
+/* End Reset */
+/* body { */
+background-color: #d5d7ff;
+text-align: left;
+font: 11px/1.1em "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #639;
+}
+h2 {
+  font-size: 1.3em;
+  line-height: .5em;
+}
+h3 {
+  font-size: 1.1em;
+}
+
+#container{
+    text-align: center;
+}
+
+/* #header { */
+  width: 900px;
+  top: 10px;
+  right: 20px;
+}
+#content {
+  width: 900px;
+  top: 100px;
+  right: 20px;
+}
+#navbar {
+  background-color: #256;
+  padding-top: 3px;
+  width: auto;
+  height: 40px;
+  top: 40px;
+  right: 20px;
+}
+li.nav {
+  font-family: "Courier New", Courier, monospace;
+  font-size:13px;
+  white-space: nowrap;
+  display: inline;
+  list-style-type: none;
+  padding-right: 1.5em;
+}
+li.nav a {
+  color: #FFFFFF;
+}
+
+:root {
+ --red: #ff6f69;
+ --blue: #3e42ec;
+ --yellow: #eee352;
+ --black: #535054;
+ --white: #FFFFFF;
+}
+
+.right {
+float: right;
+}
+
+.left{
+  float: left;
+}
+
+#painting {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 400px;
+  border-color: var(--black);
+  border-width: thick;
+  border-style: solid;
+  height: 400px;
+  background-color: #fff4db;
+  box-shadow: 10px 10px 0px #8d8d8d;
+}
+
+#toprow {
+height: 290px;
+}
+
+#bigbox {
+height: 290px;
+width: 290px;
+background-color: var(--red);
+}
+
+#divider1 {
+height: 290px;
+width: 10px;
+background-color: var(--black);
+}
+
+.mediumbox {
+height: 140px;
+width: 100px;
+background-color: var(--white);
+}
+#divider2 {
+height: 10px;
+width: 100px;
+background-color: var(--black);
+}
+
+#middlerow{
+  height: 10px;
+  width:400px;
+  background-color: var(--black);
+}
+
+#bottomrow{
+  height: 100px;
+  width: 400px;
+  /* background-color: var(--black); */
+}
+
+#bottomLeftBox{
+  height: 100px;
+  width: 100px;
+  background-color: var(--blue);
+}
+
+#bottomMiddleBox{
+  height: 100px;
+  width: 260px;
+  background-color: var(--white);
+}
+
+#bottomRightContainer{
+  height: 100px;
+  width: 20px;
+}
+
+#box1{
+  height: 45px;
+  width: 20px;
+  background-color: var(--white);
+}
+
+#divider{
+  height: 10px;
+  width: 20px;
+  background-color: var(--black);
+}
+
+#box2{
+  height: 45px;
+  width: 20px;
+  background-color: var(--yellow);
+}
+
+.bottomDivider{
+  height: 100px;
+  width: 10px;
+  background-color: var(--black);
+}
