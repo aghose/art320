@@ -10,7 +10,7 @@
 <body>
 
   <div id="wrapper" class="">
-    
+
     <header>
       <h1>Akash Ghose</h1>
       <nav id="navbar">
