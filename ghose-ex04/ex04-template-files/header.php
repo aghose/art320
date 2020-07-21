@@ -16,12 +16,7 @@
 		<header>
 
 			<nav>
-				<ul>
-					<li><a href="index.html" title="Home">Home</a></li>
-					<li><a href="about.html" title="About">About</a></li>
-					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
-					<li><a href="contact.html" title="Contact">Contact</a></li>
-				</ul>
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 			</nav>
 
 			<div id="banner"></div> <!-- close banner -->

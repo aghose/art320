@@ -177,6 +177,44 @@ button {
   background-color: gray;
 }
 
+
+nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.current-menu-ancestor a {
+    background: #db0000;
+color: #fff;
+}
+
+/* ===== Drop Down Menus ===== */
+
+li {
+  display: block;
+  transition-duration: 0.5s;
+  position: relative;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0;
+  display: none;
+  background-color: #fff;
+}
+
+ul li:hover > ul, ul li ul:hover {
+  display: block;
+}
+
+ul li ul li > a {
+  clear: both;
+  width: 100%;
+  display: block;
+  position: relative;
+  color: #222;
+}
+
 /* Media Queries */
 @media screen and (max-width: 480px) {
 
