@@ -63,6 +63,13 @@ nav li{
   font-size: 1.33em;
 }
 
+/* Highlight current tab */
+nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.current-menu-ancestor a {
+  background: #db0000;
+  color: #fff;
+} */
+
+
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <title>DITR Animal Rescue</title>
   <?php wp_head(); ?>
 </head>
@@ -21,13 +21,7 @@
       </section>
       <nav>
         <div class="navbar">
-          <ul>
-            <li>Home</li>
-            <li>Foster</li>
-            <li>Adopt</li>
-            <li>Volunteer</li>
-            <li>Login</li>
-          </ul>
+          <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         </div>
       </nav>
     </header>
