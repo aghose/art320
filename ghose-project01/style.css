@@ -1,8 +1,8 @@
 /*
-  Theme name: project01Theme
-  Author: Akash Ghose
-  Description: This is a theme created for Project 1
- */
+Theme name: project01Theme
+Author: Akash Ghose
+Description: This is a theme created for Project 1
+*/
 
 
 html {
@@ -54,6 +54,7 @@ h1{
 nav{
   margin-top:3%;
   text-align: center;
+  padding-bottom: 0.5%
 }
 
 nav li{
@@ -77,10 +78,11 @@ main{
 
 #main_container{
   margin-top: 8%;
+  display: flex;
 }
 
 #img_container{
-  float:right;
+  /* float:right; */
   width: 35%;
   /* background-color: #FFFFFF; */
   padding-right: 5%;
@@ -91,10 +93,79 @@ main{
   /* background-color: var(--blue); */
   margin:auto;
   /* float: left; */
-  text-align: center;
+  /* text-align: center; */
+}
+
+#hello{
+
+  text-align: left;
+  padding-bottom: 3%;
+
+}
+
+#welcome{
+
+  text-align: justify;
+
 }
 
 img{
   max-width: 100%;
   max-height: 100%;
 }
+
+/* ===== Drop Down Menus ===== */
+/*
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+nav ul li {
+  display:inline-block;
+  background-color: #FF4649;
+}
+nav a {
+  display:block;
+  padding:0 .8em;
+  color:#FFF;
+  font-size:1.2em;
+  line-height: 1.4em;
+  text-decoration:none;
+}
+nav a:hover {
+  background-color: #333;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 1.8em;
+}
+nav ul li:hover > ul {
+  display:inherit;
+}
+nav ul ul li {
+  width:100%;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+nav ul ul ul li {
+  position: relative;
+  top:-60px;
+  left:230px;
+}
+nav ul ul li {
+  border: 1px solid white;
+}
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+
+/* END of DROP DOWN MENUS */
+
+/* Highlight current tab */
+/* nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.current-menu-ancestor a { */
+  background: #db0000;
+  color: #fff;
+} */

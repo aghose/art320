@@ -14,11 +14,6 @@
     <header>
       <h1>Akash Ghose</h1>
       <nav id="navbar">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Contact</li>
-        </ul>
+      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
       </nav>
     </header>
