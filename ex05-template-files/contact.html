@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>ART 320 Exercise Exercise 06 | CSS Animation</title>
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+
+			<nav>
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="about.html" title="About">About</a></li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div id="banner"></div> <!-- close banner -->
+		</header>
+		<section>
+
+			<form action="http://wings.buffalo.edu/cgi-bin/wingsmail" method="POST">
+				<input type="hidden" name="to" value="">
+				<input type="hidden" name="subject" value="Exercise 5">
+				<input type="hidden" name="source" value="ART 320 Exercise 5">
+				<input type="hidden" name="source-url" value="http://art.buffalo.edu/coursenotes/art320/exercises/ex05html-forms/">
+				<input type="hidden" name="return" value="http://art.buffalo.edu/coursenotes/art320/exercises/ex05html-forms/thanks/">
+				<p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+				<div>
+					<label for="01. Name">Name:</label>
+					<input type="text" name="01. Name" id="01. Name" required />
+					<strong><abbr title="required">*</abbr></strong>
+				</div>
+
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" required />
+					<strong><abbr title="required">*</abbr></strong>
+				</div>
+
+				<div>
+					<label for="02. Comment">Comment:</label>
+					<textarea name="02. Comment" rows="3" cols="40"></textarea>
+				</div>
+				<div>
+					<label for="selections">Pick A Produce</label>
+					<select name="selections">
+						<optgroup label="fruits">
+							<option>Banana</option>
+							<option>Cherry</option>
+							<option>Lemon</option>
+						</optgroup>
+						<optgroup label="vegetables">
+							<option>Carrot</option>
+							<option>Eggplant</option>
+							<option>Potato</option>
+						</optgroup>
+					</select>
+				</div>
+
+				<div><p>Which flavors do you like?</p>
+					<p>
+						<input type="checkbox" id="taste_1" name="taste_cherry" value="1">
+						<label for="taste_1">I like cherry</label>
+					</p>
+					<p>
+						<input type="checkbox" id="taste_2" name="taste_banana" value="1">
+						<label for="taste_2">I like banana</label>
+					</p></div>
+
+					<fieldset>
+						<legend>How do you feel about asparagus?</legend>
+						<p><label for="a1"><input type="radio" name="a" id="a1" value="Love"> I LOVE IT!</label></p>
+						<p><label for="a2"><input type="radio" name="a" id="a2" value="Meh"> Meh</label></p>
+						<p><label for="a3"><input type="radio" name="a" id="a3" value="Hate"> I HATE IT!</label></p>
+					</fieldset>
+					<div class="button">
+						<input type="submit" value="Send Message">
+						<input type="reset" value="Reset">
+					</div>
+				</form>
+				<aside>
+					<h1>Sub-section</h1>
+					<p>Sample sidebar text.</p>
+				</aside>
+			</section>
+		</div> <!-- close wrapper -->
+
+	</body>
+
+
+	</html>
