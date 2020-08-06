@@ -40,7 +40,7 @@ body{
 }
 
 header{
-  background-color: var(--bluish-black);
+  background: radial-gradient(circle, rgba(54,81,82,1) 0%, rgba(84,161,217,1) 45%, rgba(29,51,51,1) 100%);
   width: 100%;
   height: auto;
   color: var(--header-color);

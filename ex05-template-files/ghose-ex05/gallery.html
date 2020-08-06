@@ -1,0 +1,63 @@
+2<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>ART 320 Exercise Exercise 06 | CSS Animation</title>
+	<link href="css/style.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+
+			<nav>
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="about.html" title="About">About</a></li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div id="banner">
+				<img src="images/banner.png" alt="banner" />
+			</div> <!-- close banner -->
+		</header>
+		<section>
+
+<div id="gallery">
+  <h1>Photo Gallery</h1>
+  <a href="images/fullscreen/img1.jpg" rel="prettyPhoto[pp_gal]" title="Limes"><img src="images/thumbnails/img1.png" width="60" height="60" alt="Limes" class="moveLeftRotate" /></a>
+  <a href="images/fullscreen/img2.jpg" rel="prettyPhoto[pp_gal]" title="Peanuts"><img src="images/thumbnails/img2.png" width="60" height="60" alt="Peanuts" class="moveRightRotate" /></a>
+  <a href="images/fullscreen/img3.jpg" rel="prettyPhoto[pp_gal]" title="Jelly Beans"><img src="images/thumbnails/img3.png" width="60" height="60" alt="Jelly Beans" class="moveLeftRotate"/></a>
+  <a href="images/fullscreen/img4.jpg" rel="prettyPhoto[pp_gal]" title="Coffee Beans"><img src="images/thumbnails/img4.png" width="60" height="60" alt="Coffee Beans" class="moveRightRotate" /></a>
+</div>
+
+		</section>
+	</div> <!-- close wrapper -->
+
+<script>
+    $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+    social_tools:false,
+    animation_speed: 'fast', /* fast/slow/normal */
+slideshow: 5000, /* false OR interval time in ms */
+autoplay_slideshow: true, /* true/false */
+opacity: 0.80, /* Value between 0 and 1 */
+show_title: true, /* true/false */
+    	});
+  });
+</script>
+
+</body>
+
+
+</html>
