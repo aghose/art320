@@ -18,7 +18,7 @@ html {
 }
 
 :root{
- /* Custom Color variables */
+  /* Custom Color variables */
   --body-color: #f9f2e8;
   --navbar-color:#dfab93;
   --text-color:#61616c;
@@ -36,9 +36,15 @@ body{
   background-color: var(--body-color);
 }
 
+h1, h2, h3{
+  font-family: var(--header-font);
+  color: var(--text-color);
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
+  padding-bottom: 3.5rem;    /* Footer height */
 }
 
 
@@ -88,7 +94,10 @@ nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.curr
 
 
 #content-wrap {
-  padding-bottom: 3.5rem;    /* Footer height */
+
+  max-width: 960px;
+  padding: 1rem;
+
 }
 
 footer{
