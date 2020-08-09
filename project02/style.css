@@ -92,11 +92,16 @@ nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.curr
   font-size: 1.38em;
 }
 
+main{
+  width: 100%;
+  height: auto;
+}
 
 #content-wrap {
 
   max-width: 960px;
   padding: 1rem;
+  margin:auto;
 
 }
 
@@ -110,7 +115,7 @@ footer{
   height: 3.5rem;            /* Footer height */
 
 
-  padding-top: 1rem;
+  padding: 1rem;
   font-size: 1.15em;
   text-align: center;
   background-color: var(--navbar-color);
