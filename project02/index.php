@@ -2,6 +2,7 @@
 
 
 <main>
+  <!-- content-wrap contains all of the dynamic content of the page -->
   <section id="content-wrap">
 
 

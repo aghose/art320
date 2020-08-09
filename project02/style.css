@@ -18,26 +18,28 @@ html {
 }
 
 :root{
-  --brown: #a35638;
-  --peach-brown: #e08f62;
-  --beige: #d7c79e;
-  --olive: #9dab86;
+ /* Custom Color variables */
+  --body: #f9f2e8;
+  --navbar:#dfab93;
+  --text:#61616c;
+
 }
 
 body{
   width:100%;
   height: 100%;
-  background-color: var(--brown);
+  background-color: var(--body);
 }
 
-#page-container {
+.page-container {
   position: relative;
   min-height: 100vh;
 }
 
 
 header section{
-  background-color: var(--brown);
+  background-color: var(--body);
+  color: var(--text);
   width: 100%;
   height: 8%;
   padding: 2rem 0 2rem 0;
@@ -51,7 +53,7 @@ header h1{
 .navbar{
   /* display: flex; */
   /* justify-content: center; */
-  background-color: var(--peach-brown);
+  background-color: var(--navbar);
   text-align: center;
   height: 5%;
   /* max-width: 960px; */
@@ -61,11 +63,11 @@ nav li{
   display: inline-flex;
   margin: 2%;
   font-size: 1.33em;
-  color: black;
+  color: var(--text);
 }
 
 nav ul li a{
-  color: black;
+  color: var(--text);
   text-decoration: solid;
 }
 
@@ -93,5 +95,5 @@ footer{
   padding-top: 1rem;
   font-size: 1.15em;
   text-align: center;
-  background-color: var(--peach-brown);
+  background-color: var(--navbar);
 }

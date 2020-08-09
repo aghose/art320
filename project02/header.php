@@ -12,8 +12,8 @@
 
 
 <body>
-  <!-- the "wrapper" class encapsulates everything, including the header -->
-  <div id="page container">
+  <!-- the "page-container" class encapsulates everything, including the header -->
+  <div class="page-container">
 
     <header>
       <section>
