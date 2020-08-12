@@ -42,7 +42,7 @@ h1, h2, h3, h4{
 }
 
 h2, h3, h4{
-  margin: 1em;
+  margin: 1em 0 1em 0;
 }
 
 .page-container {
@@ -54,7 +54,7 @@ h2, h3, h4{
 
 header section{
 
-  background-color: var(--body-color);
+  background-color: var(--navbar-color);
   color: var(--text-color);
 
   width: 100%;
@@ -66,6 +66,7 @@ header section{
 header h1{
   font-size:2em;
   font-family: var(--header-font);
+  color: var(--body-color);
 }
 
 .navbar{
@@ -82,11 +83,11 @@ nav li{
   margin: 2%;
   font-size: 1.33em;
   font-family: var(--paragraph-font);
-  color: var(--text-color);
+  color: var(--body-color);
 }
 
 nav ul li a{
-  color: var(--text-color);
+  color: var(--body-color);
   text-decoration: solid;
 }
 
@@ -112,10 +113,21 @@ main{
 
 }
 
+.wp-block-column{
+  /* position: relative; */
+}
+
 figure{
   max-width: 400px;
   width: 100%;
   height: auto;
+  margin: 1rem 0 0 0;
+
+  /* This is to center the images in the column container */
+  /* HA! Jk, this breaks my adopt and foster pages  */
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
 }
 
 img{
@@ -126,6 +138,13 @@ img{
 p {
   line-height: 2em;
   color: var(--text-color);
+}
+
+p a{
+  font-size: 1.20em;
+
+  /* color: var(--text-color);
+  text-decoration: solid; */
 }
 
 footer{
