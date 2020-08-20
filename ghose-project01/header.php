@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nova+Mono&family=Red+Rose&family=Ubuntu&display=swap" rel="stylesheet">
   <title>Aghose</title>
   <?php wp_head(); ?>
 </head>

@@ -1,6 +1,7 @@
 
 <footer id="footer">
-  This is where contact info should be
+  <img src="<?php echo get_template_directory_uri(); ?>/images/FooterF_p2-01.png" alt="Footer" />
+
 </footer>
 
 </div>

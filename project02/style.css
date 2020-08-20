@@ -51,6 +51,11 @@ h2, h3, h4{
   padding-bottom: 3.5rem;    /* Footer height */
 }
 
+header{
+  /* background: linear-gradient(0deg, rgba(244,244,244,1) 15%, rgba(224,106,51,1) 100%); */
+
+}
+
 
 header section{
 
@@ -65,11 +70,13 @@ header section{
 
 header h1{
   font-size:2em;
-  font-family: var(--header-font);
+  /* font-family: var(--header-font); */
+  /* font-family: 'Chewy', cursive; */
+  font-family: 'Margarine', cursive;
   color: var(--body-color);
 }
 
-.navbar{
+nav{
   /* display: flex; */
   /* justify-content: center; */
   background-color: var(--navbar-color);
@@ -89,6 +96,11 @@ nav li{
 nav ul li a{
   color: var(--body-color);
   text-decoration: solid;
+}
+
+nav ul li a:hover{
+  font-weight: 800;
+  font-size: 1.38em;
 }
 
 /* Highlight current tab */
@@ -160,6 +172,22 @@ footer{
   padding: 1rem;
   font-size: 1.15em;
   text-align: center;
-  background-color: var(--navbar-color);
   color: var(--text-color);
+}
+
+@media screen and (max-width:390px) {
+
+  nav li {
+    font-size: 1.2em;
+  }
+
+  nav li a:hover{
+    font-size: 1.21em;
+  }
+
+  nav ul li.current-menu-item a, nav ul li.current-page-ancestor a, nav ul li.current-menu-ancestor a {
+    font-weight: 800;
+    font-size: 1.25em;
+  }
+
 }
